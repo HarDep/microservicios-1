@@ -2,11 +2,11 @@ package com.motorcycle.service.controllers;
 
 import com.motorcycle.service.entities.Motorcycle;
 import com.motorcycle.service.services.MotorcycleService;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController

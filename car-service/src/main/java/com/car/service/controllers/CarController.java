@@ -2,11 +2,11 @@ package com.car.service.controllers;
 
 import com.car.service.entities.Car;
 import com.car.service.services.CarService;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController

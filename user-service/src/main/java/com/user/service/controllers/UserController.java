@@ -4,11 +4,11 @@ import com.user.service.entities.User;
 import com.user.service.models.Car;
 import com.user.service.models.Motorcycle;
 import com.user.service.services.UserService;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 import java.util.Map;
 
