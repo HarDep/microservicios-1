@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 //con feign client
-@FeignClient(name = "motorcycle-service", url = "http://localhost:8083/")
+@FeignClient(name = "motorcycle-service") //, url = "http://localhost:8083/"
 @RequestMapping("api/motorcycle")
 public interface MotorcycleFeignClient {
 
