@@ -32,14 +32,14 @@ public class UserService {
 
     //comunicación con rest Template
     public List<Car> getCars(Integer userId){
-        List<Car> cars = restTemplate.getForObject(String.format("http://localhost:8080/api/car/user/%s",userId)
+        List<Car> cars = restTemplate.getForObject(String.format("http://car-service/api/car/user/%s",userId)
                 , List.class);
         return cars;
     }
 
     public List<Motorcycle> getMotorcycles(Integer userId){
         List<Motorcycle> motorcycles = restTemplate.getForObject(
-                String.format("http://localhost:8080/api/motorcycle/user/%s",userId)
+                String.format("http://motorcycle-service/api/motorcycle/user/%s",userId)
                 , List.class);
         return motorcycles;
     }
