@@ -5,8 +5,6 @@ spring:
     config:
       server:
         git:
-          username: HarDep
-          password: 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
           default-label: config-server
           uri: https://github.com/HarDep/microservicios-1.git
           search-paths: config-data
